@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8e</title>
+
+  <style>
+    
+    p,
+    input,
+    button {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    p {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    input {
+      display: block;
+      width: 450px;
+      padding: 1rem;
+      margin-bottom: 0.5rem;
+      border: 0;
+      background-color: rgb(244, 244, 244);
+      font-size: 0.9rem;
+    }
+
+    .destination-text {
+      margin-bottom: 1.7rem;
+    }
+
+    .btn {
+      padding: 1rem 1.2rem;
+      border: 0;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+
+    .btn.btn-primary {
+      background-color: black;
+      color: white;
+      margin-right: 17px;
+    }
+
+    .btn.btn-secondary {
+      background-color: rgb(244, 244, 244);
+      transition: all 400ms;
+    }
+
+    .btn.btn-secondary:hover {
+      background-color: black;
+      color: white;
+      /* margin-left: 50px; */
+    }
+
+  </style>
+
+</head>
+<body>
+  
+  <!-- Uber request-a-ride form-->
+  <p class="heading">Request a ride now</p>
+  <input class="pickup-text" type="text" placeholder="Enter pickup location">
+  <input class="destination-text" type="text" placeholder="Enter destination">
+
+  <button class="btn btn-primary">Request now</button>
+  <button class="btn btn-secondary">Schedule for later</button>
+  
+
+
+</body>
+</html>
