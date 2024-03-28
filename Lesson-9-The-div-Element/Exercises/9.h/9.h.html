@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8c</title>
+
+  <style>
+
+    
+
+    .search-box {
+      width: 430px;
+      padding: 1rem 0.8rem;
+      border-radius: 100px;
+      border: 0;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .search-box::placeholder {
+      color: #606060;
+    }
+
+    .text-center {
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    .text-center.last {
+      margin-top: 35px;
+    }
+    
+    .text-center.last button {
+      padding: 0.9rem 1.5rem;
+      border: 0;
+      border-radius: 5px;
+      cursor: pointer;
+
+      transition: 200ms;
+    }
+
+    .text-center.last button:hover {
+      background-color: rgb(199, 199, 199);
+    }
+
+    
+  </style>
+
+</head>
+<body>
+
+  <!-- Download Google's logo and create the google.com search form 
+      - We created the text box in exercise 7e.
+      - For now, position the logo with margin (we'll learn better ways to do this later)
+  -->
+
+
+  <div class="text-center">
+    <img class="logo" src="google-logo.png" alt="" loading="eager">
+  </div>
+  <div class="text-center">
+    <input class="search-box" type="text" placeholder="Search Google or type a URL">
+  </div>
+  
+  <div class="text-center last">
+    <button>Google Search</button>
+    <button>I'm Feeling Lucky</button>
+  </div>
+  
+</body>
+</html>

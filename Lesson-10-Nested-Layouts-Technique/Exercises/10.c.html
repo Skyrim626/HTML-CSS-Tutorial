@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10c</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<style>
+
+  p {
+    margin: 0;
+    font-family: Roboto, Arial;
+  }
+
+  .video-container {
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 800px;
+
+    transition: background-color 300ms;
+  }
+
+  .video-container:hover {
+    background-color: rgba(96, 96, 96, 0.6);
+  }
+
+  .video-container__thumbnail-container {
+    display: inline-block;
+  }
+
+  .thumbnail {
+    width: 280px;
+  }
+
+  .video-container__video-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    width: 200px;
+  }
+
+  .video-info__video-title {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .video-info__video-author, .video-info__video-views {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+  }
+
+  .video-info__video-author {
+    margin-bottom: 8px;
+  }
+
+ 
+
+
+</style>
+
+<body>
+  
+  <!-- 10c: Draw the Layout-->
+  <div class="video-container">
+
+    <div class="video-container__thumbnail-container">
+      <img src="../thumbnails/thumbnail-1.webp" alt="" class="thumbnail" loading="lazy">
+    </div>
+
+    <div class="video-container__video-info">
+      <p class="video-info__video-title">How to compete against CS degress (as a self-taught dev)</p>
+      <p class="video-info__video-author">SuperSimpleDev</p>
+      <p class="video-info__video-views">1.5k views &#183; 4 months ago</p>
+    </div>
+
+  </div>
+
+  <div class="video-container">
+
+    <div class="video-container__thumbnail-container">
+      <img src="../thumbnails/thumbnail-2.webp" alt="" class="thumbnail" loading="lazy">
+    </div>
+
+    <div class="video-container__video-info">
+      <p class="video-info__video-title">Which programming language to learn first 2022 (with charts)</p>
+      <p class="video-info__video-author">SuperSimpleDev</p>
+      <p class="video-info__video-views">5.7k views &#183; 11 months ago</p>
+    </div>
+
+  </div>
+
+  <div class="video-container">
+
+    <div class="video-container__thumbnail-container">
+      <img src="../thumbnails/thumbnail-1.webp" alt="" class="thumbnail" loading="lazy">
+    </div>
+
+    <div class="video-container__video-info">
+      <p class="video-info__video-title">Frontend web development - a complete overview (2021)</p>
+      <p class="video-info__video-author">SuperSimpleDev</p>
+      <p class="video-info__video-views">1k views &#183; 4 months ago</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
